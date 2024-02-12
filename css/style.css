@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+.btn {
+    border: 0;
+    padding: 12px 18px;
+    background-color: #c20302;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hide-menu, #show-menu {
+    display: none;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 4px;
+}
+.nav-links ul li a:hover {
+    color: #c20302;
+}
+.nav-links ul li a.active {
+    color: #c20302;
+}
+
+
+
+
+
+/* Start Code For Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    background-color: #ededed;
+    align-items: center;
+    max-height: 600px;
+}
+.image-box {
+    max-height: 600px;
+    width: 50%;
+}
+.image-box img {
+    height: 100%;
+    width: 100%;
+}
+.text-box {
+    text-align: left;
+}
+.text-box h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    line-height: 50px;
+}
+.text-box h4 {
+    font-size: 24px;
+    color: #787878;
+    margin-bottom: 16px;
+}
+.text-box p {
+    font-weight: 16px;
+    color: #787878;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.video {
+    display: flex;
+    align-items: center;
+}
+.video .text p {
+    margin: 0 !important;
+}
+.video div {
+    margin-right: 30px;
+}
+.video-popup {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, 0.6);
+    display: none;
+}
+.video-popup-box {
+    width: 60%;
+    height: 80%;
+    background-color: #ffffff;
+}
+.video-popup-box iframe {
+    width: 100%;
+    height: 100%;
+}
+.close-icon {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #c20303;
+    display: none;
+}
+#close-video-popup {
+    display: none;
+}
+/* End Code For Banner */
+/*Start  design for company-formation*/
+.company-formation {
+    padding: 0 60px;
+    margin-top: 60px;
+}
+.company-formation h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.company-formation p {
+    text-align: center;
+    color: #787878;
+}
+.content-row {
+    margin-top: 60px;
+    justify-content: space-between;
+    display: flex;
+}
+.content-col {
+    flex-basis: 33%;
+    background: #f7f7f7;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: justify;
+    cursor: pointer;
+    padding: 16px;
+}
+.content-col p {
+    font-size: 14px;
+    text-align: justify;
+}
+.get-start-button {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 0;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.content-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*End  design for company-formation*/
+
+/* Start css for  type of license */
+section.typeOflicense {
+    background-color: #ededed;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+section.typeOflicense h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-content-UAE {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 31%;
+}
+
+.main-content-UAE .image {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    margin-bottom: 16px;
+}
+.main-content-UAE .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.main-content-UAE .heading {
+    color: #000000;
+}
+.main-content-UAE .description {
+    color: #787878;
+    text-align: center;
+}
+/* End css for  type of license */
+
+/* Start CSS for register reliable zone*/
+.register {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    margin: 60px 0;
+   
+}
+.register .left {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.register .left h2 {
+    color: #000000;
+    margin-bottom: 16px;
+}
+.register .left p {
+    text-align: justify;
+    color: #787878;
+    line-height: 20px;
+}
+.register .right {
+    width: 48%;
+    max-height: 420px;
+   
+}
+.register .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* End CSS for register reliable zone*/
+
+/* Start CSS for experience comprehensive*/
+.experience {
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.experience .left {
+    width: 49%;
+    max-height: 420px;
+   
+}
+.experience .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.experience .right {
+    width: 49%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.experience .right h2 {
+    color: #000000;
+    margin-bottom: 16px;
+}
+.experience .right li {
+    margin-bottom: 16px;
+}
+.experience .right h5 {
+    color: #000000;
+    margin-bottom: 8px;
+}
+.experience .right p {
+    color: #787878;
+        line-height: 20px;
+}
+/* End CSS for experience comprehensive*/
+/* Start CSS For Start Business */
+.businessInDubai {
+    display: flex;
+    padding: 0 60px;
+    margin: 60px 0;
+   
+}
+.businessInDubai .left {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.businessInDubai .left h2 {
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.businessInDubai .left ol {
+    margin: 0;
+    padding: 0;;
+}
+.businessInDubai .left ol li {
+    color: #787878;
+    margin-bottom: 8px;
+}
+
+
+.businessInDubai .right {
+    width: 50%;
+    max-height: 420px;
+}
+.businessInDubai .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Start CSS For Start Business */
+.timeCharge {
+    display: flex;
+    padding: 0 60px;
+        margin: 60px 0;
+}
+
+.timeCharge .left {
+    width: 49%;
+    max-height: 480px;
+}
+.timeCharge .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.timeCharge .right {
+    width: 50%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.timeCharge .right h2 {
+    color: #000000;
+}
+.timeCharge .right p {
+    color: #787878;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 8px;
+}
+/* End CSS For Start Business */
+
+/* Start CSS For FAQ */
+.faq {
+    padding: 0 60px;
+    margin: 60px 0;
+}
+.faq h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    padding: 16px;
+}
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.accordion.active:after {
+    content: "\2212";
+}
+.footer {
+    background-color: #ededed;
+    padding: 16px;
+    color: #787878;
+}
+/* End CSS for FAQ*/
+
+@media(max-width: 768px){
+    #navLinks {
+    display: none;
+        position: absolute;
+        left: 0;
+        top: 40px;
+        width: 100%;
+    }
+    .nav-links ul li {
+            list-style: none;
+            display: block;
+            padding: 8px 12px;
+            position: relative;
+            background-color: #ededed;
+            text-align: left;
+            border-bottom: 1px solid #c3c3c3;
+            text-transform: capitalize;
+        }
+        #show-menu {
+            position: absolute;
+            right: 30px;
+            cursor: pointer;
+            z-index: 9;
+            display: block;
+        }
+
+        #hide-menu {
+            position: absolute;
+            right: 30px;
+            cursor: pointer;
+            z-index: 9;
+            top: -30px;
+
+
+        }
+
+
+        .banner {
+            flex-direction: column;
+            padding: 30px 30px;
+        }
+                
+        .text-box {
+            width: 100%;
+        }
+        .image-box {
+            width: 100%;
+        }
+        .text-box h1 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .text-box h4 {
+            font-size: 16px;
+        }
+        .text-box p {
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .video {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .video .text {
+            width: 100%;
+            padding-left: 0;
+        }
+        #open-video-popup {
+            margin: 10px 0;
+        }
+        .image-box {
+            display: none;
+        }
+                .content-row {
+                    flex-direction: column;
+
+                }
+                .content-col {
+                    flex-basis: 100%;
+                    margin-bottom: 30px;;
+                }
+                .main-content-UAE {
+                    flex: 0 0 100%;
+                        margin-bottom: 30px;
+                }
+                .register .left {
+                    width: 100%;
+                }
+                .register {
+                    flex-direction: column;
+                    padding: 0 30px;
+                }
+                .register .right {
+                    width: 100%;
+                    display: none;
+                }
+                .experience {
+                    flex-direction: column;
+                    padding: 0 30px;
+                }
+                .experience .left {
+                    width: 100%;
+                    display: none;
+                }
+                                .experience .right {
+                                    width: 100%;
+                                }
+
+                .businessInDubai {
+                    flex-direction: column;
+                }
+                                .businessInDubai .left {
+                                    width: 100%;
+                                }
+                                                                  .businessInDubai .right {
+                                                                      width: 100%;
+                                                                      display: none;
+ 
+                                                                    }
+                .timeCharge {
+                    flex-direction: column;
+                    padding: 0 30px;
+                }
+                                .timeCharge .left {
+                                    width: 100%;
+                                    display: none;
+                                }
+                                                                 .timeCharge .right {
+                                                                     width: 100%;
+                                                                 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
